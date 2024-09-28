@@ -1,0 +1,47 @@
+{
+	"name": "steelhacks-2024",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "npm run test:integration && npm run test:unit",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test:integration": "playwright test",
+		"test:unit": "vitest",
+		"sb:start": "sudo npx supabase start",
+		"sb:stop": "sudo npx supabase stop",
+		"update": "ncu -u && npm update",
+		"clean": "npx @biomejs/biome check --write src/**/* biome.json .gitignore README.md tsconfig.json vite.config.ts tailwind.config.js svelte.config.js postcss.config.js"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2",
+		"@playwright/test": "^1.47.2",
+		"@sveltejs/adapter-auto": "^3.2.5",
+		"@sveltejs/adapter-netlify": "^4.3.4",
+		"@sveltejs/kit": "^2.5.28",
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"@tailwindcss/typography": "^0.5.15",
+		"@types/node": "^22.6.1",
+		"autoprefixer": "^10.4.20",
+		"daisyui": "^4.12.10",
+		"postcss": "^8.4.47",
+		"svelte": "^4.2.19",
+		"svelte-check": "^4.0.2",
+		"tailwindcss": "^3.4.13",
+		"tslib": "^2.7.0",
+		"typescript": "^5.6.2",
+		"vite": "^5.4.7",
+		"vitest": "^2.1.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"@supabase/auth-ui-shared": "^0.1.8",
+		"@supabase/auth-ui-svelte": "^0.2.9",
+		"@supabase/ssr": "^0.5.1",
+		"@supabase/supabase-js": "^2.45.4",
+		"theme-change": "^2.5.0"
+	}
+}
