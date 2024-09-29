@@ -6,6 +6,8 @@ No one likes potholes. Potholes damage cars and are hazardous to pedestrians and
 
 Nick Ferguson, ndferguson@protonmail.com or ndf27@pitt.edu
 
+[Demo Video](https://drive.google.com/file/d/1nxrHbArQoO2Rp-mbziX6tj_fS8MvDTQh/view?usp=drive_link)
+
 [Google Slides](https://docs.google.com/presentation/d/1CKLvZwHIrBdfgzJ9M5HSaVtGW78mdL5Oh_oxkN9MjVE/edit?usp=sharing)
 
 <!-- https://potholes.netlify.app/ -->
