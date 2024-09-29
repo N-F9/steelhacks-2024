@@ -1,34 +1,11 @@
 # Steelhacks 2024, Potholes
 
+A project to bring awareness to the civic issue of potholes. 
+
+No one likes potholes. Potholes damage cars and are hazardous to pedestrians and cyclists. According to [Wikipedia](https://en.wikipedia.org/wiki/Pothole), the US Army Corps of Engineers's Cold Regions Research and Engineering Laboratory states that potholes form from water and traffic. Pittsburgh is known for poor weather and traffic, which makes potholes an issue. My goal is to bring awareness to the problem.
+
 Nick Ferguson, ndferguson@protonmail.com or ndf27@pitt.edu
 
-<!--
-Setup Links: 
+[Google Slides](https://docs.google.com/presentation/d/1CKLvZwHIrBdfgzJ9M5HSaVtGW78mdL5Oh_oxkN9MjVE/edit?usp=sharing)
 
-- https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit#project-setup
-
-Localhost Links:
-
-- http://localhost:5173/
-- http://localhost:54323/
-- http://localhost:54324/
-
-Hosting Links:
-
-- https://www.netlify.com/
-- https://supabase.com/
-- https://aws.amazon.com/ses/
-
-Known Issues:
-
-- https://github.com/supabase/cli/issues/2470
-
----
-
-Extras:
-
-- https://github.com/robbins23/daisyui-admin-dashboard-template  
-- https://www.chartjs.org/  
-- https://posthog.com/  
-- https://stripe.com/  
-- https://saasstarter.work/-->
+<!-- https://potholes.netlify.app/ -->

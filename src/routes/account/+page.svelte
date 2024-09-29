@@ -64,11 +64,6 @@ const handleSignOut: SubmitFunction = () => {
 			<input id="username" class="grow" name="username" type="text" value={form?.username ?? username} />
 		</label>
 
-		<label class="input input-bordered flex items-center gap-2 w-96">
-			<span class="font-bold">Website</span>
-			<input id="website" class="grow" name="website" type="url" value={form?.website ?? website} />
-		</label>
-
 		<div>
 			<input
 				type="submit"
