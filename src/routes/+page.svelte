@@ -18,7 +18,7 @@ $: ({ potholes, profiles } = data);
 					style="height: 20em; width: 20em;" />
 				</figure>
 				<div class="card-body items-center text-center">
-					<h2 class="card-title link link-primary"><a href={`https://www.google.com/maps/@${pothole.lat},${pothole.long},21z`} target="_blank">{pothole.long}, {pothole.lat}</a></h2>
+					<h2 class="card-title link link-primary"><a href={`https://www.google.com/maps/@${pothole.lat},${pothole.long},21z`} target="_blank">{pothole.lat}, {pothole.long}</a></h2>
 					<p>{new Date(pothole.posted_at).toLocaleString()}</p>
 					<p>Posted by {profiles?.find((profile) => profile.id === pothole.posted_by_id)?.username}</p>
 				</div>
