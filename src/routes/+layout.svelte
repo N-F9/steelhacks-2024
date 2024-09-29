@@ -1,8 +1,8 @@
 <!-- src/routes/+layout.svelte -->
 <script lang="ts">
-import "tailwindcss/tailwind.css";
 import { invalidate } from "$app/navigation";
 import { onMount } from "svelte";
+import "tailwindcss/tailwind.css";
 import { themeChange } from "theme-change";
 
 let themes = [
@@ -59,25 +59,22 @@ onMount(() => {
 </script>
 
 <svelte:head>
-	<title>User Management</title>
+	<title>Potholes</title>
 </svelte:head>
 
 <div class="navbar bg-base-300">
   <div class="flex-none">
-    <a class="btn btn-ghost text-xl" href="/">daisyUI</a>
+    <a class="btn btn-ghost text-xl" href="/">Potholes</a>
   </div>
   <div class="flex-1">
+
     <ul class="menu menu-horizontal w-full px-1 gap-2 items-center justify-end">
-      <!--<li><a>Link</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul class="bg-base-100 rounded-t-none p-2">
-            <li><a>Link 1</a></li>
-            <li><a>Link 2</a></li>
-          </ul>
-        </details>
-      </li>-->
+		{#if session == null}
+			<a class="btn btn-primary" href="/auth">Sign in</a>
+		{:else}
+			<a href="/account" class="btn btn-primary">Go To Account</a>
+			<a href="/post" class="btn btn-primary">Post A Pothole</a>
+		{/if}
 			<li class="w-32">
 				<select data-choose-theme class="select select-bordered w-full max-w-xs">
 					{#each themes as theme}
