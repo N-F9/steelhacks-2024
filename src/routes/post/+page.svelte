@@ -43,7 +43,8 @@ const handleSubmit: SubmitFunction = () => {
 			size={10}
 		/>
 
-		<pre>{JSON.stringify(coords)}</pre>
+		<p>Latitude: {coords[1]}</p>
+		<p>Longitude: {coords[0]}</p>
 
 		<input id="coords" class="hidden" name="coords" type="text" value={coords} />
 
